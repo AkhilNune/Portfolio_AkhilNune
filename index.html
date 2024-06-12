@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akhil Nune 💻🎮🎧</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquries.css" />
+  </head>
+  <body>
+    <nav id="webpage-nav">
+      <div class="logo">Akhil Nune</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="mobile-nav">
+      <div class="logo">Akhil Nune</div>
+      <div class="mobile-menu">
+        <div class="mobile-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img
+          src="./media/profile_pic.jpg"
+          alt="Akhil Nune Profile pic"
+          class="section_pic-img"
+        />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Akhil Nune</h1>
+        <p class="section_text_p2">Full-Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./media/Akhil_Nune_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./media/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/akhil-nune-9098491a0/', '_blank')"
+          />
+          <img
+            src="./media/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="window.open('https://github.com/AkhilNune', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./media/profile_pic_2.jpg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img
+                src="./media/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                4 years <br />
+                Full-Stack Development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./media/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>M.Sc. Masters Degree<br />B.Tech Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              🌟Passionate Full-Stack developer with <b>4 years</b> of
+              experience crafting efficient and user-friendly applications using
+              <b>C#, .NET, Azure, AWS, and Front-End Technologies</b>.
+              Successfully migrated a banking application to Azure cloud using
+              Azure DevOps Services (CI/CD, Docker). 🚀Leverage a diverse skill
+              set in programming languages (C#, OOP, .NET, Java & Python), cloud
+              services and software development methodologies to contribute to
+              innovative projects in a fast-paced environment. Focus on Azure
+              Services (DevOps & Functions), CI/CD pipelines, Jenkins,
+              Terraform, Docker, and Azure AKS.
+            </p>
+            <p>
+              💼My <b>Entrepreneurial</b> journey has enriched my skills,
+              leading startup initiatives, securing funding, and fostering
+              innovation. 🎓With a
+              <b>Master's degree in Information Technology</b> from the
+              University of Cincinnati, I have experience in optimizing
+              application performance, building scalable cloud solutions and
+              leading successful projects in Cloud Azure, Machine Learning and
+              Android Development. 🤝Enthusiastic and passionate about
+              collaborating on innovative projects.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-detail-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Full-Stack Development</h2>
+            <div class="skills-article-container">
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ASP .NET MVC</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.NET Core</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PYTHON</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL Server</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OOPS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Front-End</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Shell Scripting</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Cloud and Other Tools</h2>
+            <div class="skills-article-container">
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure Services</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS Services</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure DevOps</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pipelines and Jenkins</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker and AKS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Rest API</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Terraform</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git &Github</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./media/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SDLC & Agile</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">My Learnings</p>
+      <h1 class="title">Education & Experience</h1>
+      <div class="experience-detail-container">
+        <div class="experience-about-container">
+          <div class="experience-details-container">
+            <h2 class="experience-sub-title">Education</h2>
+            <div class="experience-article-container">
+              <article>
+                <div class="text-container" data-name="p1">
+                  <h3>Master's in Information Technology</h3>
+                  <p>University of Cincinnati</p>
+                  <p>GPA : 4.0</p>
+                </div>
+              </article>
+              <article>
+                <div class="text-containers" data-name="p2">
+                  <h3>Bachelor's Degree in Computer Science</h3>
+                  <p>S R Engineering College</p>
+                  <p>GPA : 3.3</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <h2 class="experience-sub-title">Experience</h2>
+            <div class="experience-article-container">
+              <article>
+                <div class="exp" data-name="p3">
+                  <h3>Full-Stack Engineer</h3>
+                  <p>SA Testing Services <b>(UC)</b></p>
+                  <p>Year: MAR 2023 - APR 2024</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp" data-name="p4">
+                  <h3>Full-Stack Software Engineer</h3>
+                  <p>LTI Mindtree</p>
+                  <p>Year: OCT 2021 - DEC 2022</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp" data-name="p5">
+                  <h3>Associate Software Engineer</h3>
+                  <p>DXC Technology</p>
+                  <p>Year: MAR 2020 - OCT 2021</p>
+                </div>
+              </article>
+              <article>
+                <div class="exp" data-name="p6">
+                  <h3>Startup Founder</h3>
+                  <p>EASTech</p>
+                  <p>Year: DEC 2019 - MAR 2021</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-preview">
+        <div class="preview active" data-target="p1">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img src="./media/UC_logo.png" alt="UC Picture" class="UC-pics" />
+            <div class="text-content">
+              <h2>Master's in Information Technology</h2>
+              <h4>University Of Cincinnati</h4>
+            </div>
+          </div>
+          <p>
+            Coursework: Machine Learning & Data Mining, Cloud Azure, Mobile
+            Application Development, UI/UX, Advance Storage Technologies.
+          </p>
+        </div>
+        <div class="preview active" data-target="p2">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img src="./media/SR_logo.png" alt="UC Picture" class="UC-pic" />
+            <div class="text-content">
+              <h2>Bachelor's Degree in Computer Science</h2>
+              <h4>S R Engineering College</h4>
+            </div>
+          </div>
+          <p>
+            Coursework: Python, Java, Data Structures, Database, Computer
+            Network, Cryptography and Network Security.
+          </p>
+        </div>
+        <div class="preview active" data-target="p3">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img src="./media/UC_logo.png" alt="UC Picture" class="UC-pics" />
+            <div class="text-content">
+              <h2>Full-Stack Engineer</h2>
+              <h4>University Of Cincinnati</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • Developed and Managed University Testing Services Website using
+            HTML5, CSS, JavaScript and Shell Scripting, optimizing SQL queries
+            for 10000+ student records, ensuring smooth operations. Utilized
+            Cloud Azure Services for application scalability.
+          </p>
+          <p>
+            • Monitored Windows server infrastructure using Azure Monitoring service and developed automated scripts to ensure seamless 
+            performance and availability of critical systems.            
+          </p>
+        </div>
+        <div class="preview active" data-target="p4">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img
+              src="./media/Mindtree_logo.png"
+              alt="UC Picture"
+              class="UC-pic"
+            />
+            <div class="text-content">
+              <h2>Full-Stack Software Engineer</h2>
+              <h4>LTI MIndtree</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • Built 3 features for a CSI banking application using C# .NET business logic, achieving 60% reduction in application response time. 
+          </p>
+          <p>
+            • Independently developed and deployed a parameter-based search feature using ASP.NET Web API, HTML 5, JavaScript, jQuery
+            and SQL (SSIS), integrated Swagger API documentation.
+          </p>
+          <p>
+            • Integrated OAuth 2.0 API authorization protocol within ASP.NET MVC for secure API integration (token management).
+          </p>
+          <p>
+            • Streamlined Agile & CI/CD pipelines (Azure Repos, GitFlow) with DevOps tools (Jenkins) for microservices, enabling early issue 
+            detection and a 40% improvement in application quality across on-premises and Azure Cloud environments.            
+          </p>
+          <p>
+            • Developed and Tested secure RESTful APIs using ASP.NET Core, achieving over 70% code coverage with xUnit and SonarQube
+            for continuous quality monitoring.
+          </p>
+          <p>
+            • Migrated 10 microservices of a banking application to Azure Cloud using Docker for deployment and Azure Kubernetes Service
+              (AKS) for orchestration, achieving a 35% improvement in infrastructure management.
+          </p>
+        </div>
+        <div class="preview active" data-target="p5">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img src="./media/DXC_1_Logo.png" alt="UC Picture" class="UC-pic" />
+            <div class="text-content">
+              <h2>Associate Software Engineer</h2>
+              <h4>DXC Technology</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • Configured and Maintained virtual environments with Azure VMs and integrated Azure API Management for secure and 
+            efficient API deployment, improving overall system reliability.
+          </p>
+          <p>
+            • Optimized and Deployed 5 console and web applications (C#, .NET MVC) with efficient SQL queries and stored procedures, 
+            ensuring high performance and reliability on Microsoft IIS (on-premises and cloud Azure).
+          </p>
+          <p>
+            • Configured and maintained virtual environments with Azure VM and integrated Azure API Management for secure and efficient 
+            API deployment, improving overall system reliability
+          </p>
+          <p>
+            • Worked on real-time notifications using SignalR for efficient server-to-client communication, enhancing user engagement and 
+              responsiveness within web applications.
+          </p>
+        </div>
+        <div class="preview active" data-target="p6">
+          <i class="fas fa-times"></i>
+          <div class="content-wrapper">
+            <img
+              src="./media/EASTech_logo.png"
+              alt="UC Picture"
+              class="UC-pics"
+            />
+            <div class="text-content">
+              <h2>Startup Founder</h2>
+              <h4>EASTech</h4>
+              <h5>Roles & Responsibilities</h5>
+            </div>
+          </div>
+          <p>
+            • Led a team of 4, successfully secured State Funding ($300), patent
+            application and participated in university competitions (SIH,
+            Tie-Grad, Boot Camp’s) and State-Level recognition (top-60 Telangana
+            Innovation Yatra 2020).
+          </p>
+          <p>
+            • Design & built a multi-processing PCB with ESP32/GSM for faster
+            emergency communication (C #/Java (Android Development)) and Front-end
+            web application for Startup company using HTML, CSS and JavaScript.
+          </p>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Projects</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-detail-container">
+        <div class="about-container">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./media/project_1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+              <img
+                src="./media/project_1.2.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Ecommerce-website
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/AkhilNune/Ecommerce-website.git', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="project_2_img">
+              <div class="article-container">
+                <img
+                  src="./media/m.l_project_2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <div class="project_two">
+              <h2 class="experience-sub-title project-title">
+                Machine Learning Project
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/AkhilNune', '_blank')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./media/mobile_app_p_3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="project_three">
+              <h2 class="experience-sub-title project-title">
+                Mobile Application
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/AkhilNune/saline_mobile_app.git', '_blank')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./media/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <a href="mailto:akhilnune31@gmail.com">
+            <img
+              src="./media/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+          </a>
+          <p>
+            <a href="mailto:akhilnune31@gmail.com">akhilnune31@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./media/linkedin.png"
+            alt="Linkedin icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/akhil-nune-9098491a0/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
